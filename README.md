@@ -21,8 +21,8 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 
 # get Wireguard
-git clone https://github.com/VadzimBelski-ScienceSoft/wireguard-docker-setup-howto.git
-cd wireguard-docker-setup-howto
+git clone https://github.com/aryo-sr/wireguard-docker-setup.git
+cd wireguard-docker-setup
         
 # enable ip forwarding in sysctl
 

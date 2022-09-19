@@ -16,9 +16,9 @@ docker run -d \
   --cap-add=NET_ADMIN \
   --cap-add=SYS_MODULE \
   -e PUID=1000 -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Asia/Jakarta \
   -e SERVERURL=$PUBLIC_IPV4 \
-  -e PEERS=laptop,phone \
+  -e PEERS=laptop,phone,raspi \
   -e PEERDNS=auto \
   -p 51820:51820/udp \
   -v $(pwd)/wireguard_config:/config \
